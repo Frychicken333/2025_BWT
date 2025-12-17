@@ -1,5 +1,5 @@
 async function getResponce() {
-    let responce = await fetch("./myshop copy.json")
+    let responce = await fetch("./myshop_copy.json")
     let content = await responce.text()
     console.log(content)
     content = JSON.parse(content)
